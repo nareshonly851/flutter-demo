@@ -489,6 +489,7 @@ public class MainActivity extends FlutterActivity implements ITransactionListene
                 error("3","Checkout Result Error","");
 
         }
+        super.onActivityResult(requestCode, resultCode, data)
     }
 
 
